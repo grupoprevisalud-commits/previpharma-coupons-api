@@ -1,0 +1,14 @@
+{
+  "name": "previpharma-coupons-api",
+  "version": "1.0.0",
+  "description": "API para generar cupones únicos de Previpharma",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/emitir-codigo-unico.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "pg": "^8.11.3"
+  }
+}
